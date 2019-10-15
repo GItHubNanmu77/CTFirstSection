@@ -6,7 +6,7 @@
 //
 
 #import "FirstViewController.h"
-#import "SecondViewController.h"
+#import <CTMediator+Second.h>
 
 @interface FirstViewController ()
 
@@ -21,7 +21,7 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    SecondViewController *vc =[[SecondViewController alloc] init];
+    UIViewController *vc = [[CTMediator sharedInstance] SecondViewController];
     [self presentViewController:vc animated:YES completion:nil];
 }
 

@@ -6,6 +6,7 @@ target 'FirstSection' do
   use_frameworks!
 
   pod 'Masonry', :git => 'https://github.com/SnapKit/Masonry.git', :inhibit_warnings => true
+  pod "CTProjectCategory", :git => 'https://github.com/GItHubNanmu77/CTProjectCategory.git',:tag=>'1.0.3', :inhibit_warnings => true
   # Pods for FirstSection
 
   target 'FirstSectionTests' do
