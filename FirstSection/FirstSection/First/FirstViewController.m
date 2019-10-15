@@ -6,7 +6,7 @@
 //
 
 #import "FirstViewController.h"
-#import <CTMediator+Second.h>
+#import "CTMediator+Second.h"
 
 @interface FirstViewController ()
 

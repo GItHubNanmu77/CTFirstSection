@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FirstSection"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "FirstSection of CTMainProject."
 
   # This description is used to generate tags and improve search results.
@@ -133,6 +133,7 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  spec.dependency "Masonry"
   spec.dependency "CTMediator"
   spec.dependency "CTProjectCategory"
 
