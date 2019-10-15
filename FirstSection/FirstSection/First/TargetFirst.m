@@ -10,7 +10,7 @@
 #import "FirstViewController.h"
 
 @implementation TargetFirst
-- (UIViewController *)ActionViewController:(NSDictionary *)param
+- (UIViewController *)Action_AViewController:(NSDictionary *)param
 {
     FirstViewController *viewController = [[FirstViewController alloc] init];
     return viewController;
