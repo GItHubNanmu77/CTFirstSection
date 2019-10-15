@@ -1,5 +1,5 @@
 //
-//  TargetFirst.h
+//  Target_First.h
 //  FirstSection
 //
 //  Created by cisdi on 2019/10/15.
@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TargetFirst : NSObject
+@interface Target_First : NSObject
 - (UIViewController *)Action_AViewController:(NSDictionary *)param;
 @end
 

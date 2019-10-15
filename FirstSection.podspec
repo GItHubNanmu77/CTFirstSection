@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FirstSection"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "FirstSection of CTMainProject."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-			FirstSection of CTMainProject.
+			CTMediator study. FirstSection of CTMainProject.
                    DESC
 
   spec.homepage     = "https://github.com/GItHubNanmu77/CTFirstSection.git"
